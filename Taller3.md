@@ -12,7 +12,7 @@
    - Se conecta el pendrive y se vuelve a ejecutar :*sudo fdisk -l*, se puede identificar la direccion del pendrive en nuestro caso fue /dev/sda
    - Se crea un punto de montaje a el pendrive : *sudo mkdir /media/pendrive*
    - Se tiene que modificar el archivo fstab para que no sea necesario montar el pendrive cada vez que se inicie la raspberry : *sudo nano /etc/fstab* 
-   - Debajo de todo se añade /dev/sda1 (direccion del pendrive)    /media/pendrive(direccion de montaje)  ext3(El formato)
+   - Debajo de todo se añade /dev/sda (direccion del pendrive)    /media/pendrive(direccion de montaje)  ext3(El formato)
  defaults    0    0
    - Para ver los cambios :*sudo mount -a*
   
