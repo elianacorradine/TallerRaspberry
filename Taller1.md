@@ -1,4 +1,4 @@
-#SSH Communication
+#SSH Communication:
 
 1. Conectar la Raspberry al teclado,pantalla y cable ethernet.
 2. Alimentar la Tarjeta Raspberry y encender la pantalla.
