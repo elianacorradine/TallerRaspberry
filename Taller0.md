@@ -19,8 +19,6 @@
   + Verifique que Linux efectivamente monta el sistema de archivos de la tarjeta SD al sistema operativo.
 
 3. Descargar e instalar Raspbian:
-
-   + https://www.raspberrypi.org/documentation/installation/installing-images/ -- Instalar imagen!
    + *df –h*
    + Desmontar el dispositivo, para que lo archivos puedan ser leídos y escritos en la SD mientras que se copia la imagen:
 *Umount /dev/mmcblk0p1 [con partición] [quitar todas las particiones]*
