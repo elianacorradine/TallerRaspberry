@@ -1,8 +1,7 @@
-Instalación de Raspbian en la Raspberry
-=======
+##Instalación de Raspbian en la Raspberry
 
 1. Formatear SD (Como se hizo en grupo Taller Galileo),hasta el paso de retirar y meter de nuevo
-2. [Descargar Raspbian)(https://www.raspberrypi.org/documentation/installation/installing-images/) -- Instalar imagen!
+2. https://www.raspberrypi.org/documentation/installation/installing-images/ -- Instalar imagen!
    + df –h
    + Desmontar el dispositivo, para que lo archivos puedan ser leídos y escritos en la SD mientras que se copia la imagen:
 Umount /dev/mmcblk0p1 [con partición] [quitar todas las particiones]
