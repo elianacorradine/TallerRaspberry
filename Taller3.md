@@ -1,4 +1,4 @@
-#OwnCLoud y creación de pendrive
+#OwnCloud y creación de pendrive
 1. Descargar OwnCLoud:
   + *wget http://download.ownload.org/community/owncloud-8.1.1.tar.bz2*
 2. Descomprimir OwnCLoud:
@@ -24,4 +24,4 @@
   + *sudo service apache2 restart*
   
 7. Se entra a la pagina:
-  + http://ip.owncloud
+  + http://ip/owncloud
