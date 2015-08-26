@@ -16,7 +16,7 @@
  defaults    0    0
    - Para ver los cambios :*sudo mount -a*
   
-5.Se cambian los permisos de la carpeta del servidor para que owncloud tenga acceso:
+5. Se cambian los permisos de la carpeta del servidor para que owncloud tenga acceso:
   + *sudo chown -R www-data:www-data  /var/www*
   + *sudo chown -R www-data:www-data  /media/pendrive*
   
