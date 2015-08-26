@@ -1,4 +1,4 @@
-##Instalación de Raspbian en la Raspberry
+##Instalación de Raspbian en la Raspberry:
 
 1. Formatear SD (Como se hizo en grupo Taller Galileo):
 
