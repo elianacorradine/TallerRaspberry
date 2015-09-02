@@ -32,4 +32,8 @@ comunicación con una base de datos.
      + Conectar pines a la raspberry, gpio 4 a led+, gpio 14 a pulsador, gpio 15 a pulsador y otro pin a tierra.
      + Ejecutar el programa para probarlo *sudo python prog1.py* 
      
-4. 
+4. Visualización:
+     + Descargar archivo tempmon_2_0.zip 
+          - *http://ip/temp/tempmon_2_0.zip*
+     + Crear carpeta llamada temp en var/www
+     + Descomprimir tempmon_2_0.zip en /temp
