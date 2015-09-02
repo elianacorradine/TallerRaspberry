@@ -33,6 +33,6 @@ comunicación con una base de datos.
      
 4. Visualización:
      + Descargar archivo tempmon_2_0.zip 
-          - *http://ip/temp/tempmon_2_0.zip*
+          - *http://157.253.192.54/temp/tempmon_2_0.zip*
      + Crear carpeta llamada temp en var/www
      + Descomprimir tempmon_2_0.zip en /temp
