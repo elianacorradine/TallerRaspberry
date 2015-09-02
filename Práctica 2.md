@@ -28,5 +28,6 @@ comunicación con una base de datos.
 3. Python
 
      + Descargar el archivo prog1.py 
+      *wget https://raw.githubusercontent.com/elianacorradine/TallerRaspberry/master/prog1.py*
      + Conectar pines a la raspberry, gpio 4 a led+, gpio 14 a pulsador, gpio 15 a pulsador y otro pin a tierra.
      + Ejecutar el programa para probarlo *sudo python prog1.py* 
