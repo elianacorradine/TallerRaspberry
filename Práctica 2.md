@@ -3,25 +3,25 @@
 1. Instalar paquetes de MySQL Estos paquetes son básicos para la creación de un enlace de 
 comunicación con una base de datos.
 
-      *sudo apt-get install python-mysqldb*
-      *sudo pip install requests*
-      *sudo pip install pymysql*
-      *sudo apt-get install mysql-server mysql-client php5-mysql*
+      - *sudo apt-get install python-mysqldb*
+      - *sudo pip install requests*
+      - *sudo pip install pymysql*
+      - *sudo apt-get install mysql-server mysql-client php5-mysql*
 
 (cuando instala pide crear contraseña, en lo posible dejar usuario: root, contraseña: raspberry)
 
 2. crear base de datos:
 
-      *mysql -u root -p*
+      -*mysql -u root -p*
 
-      *CREATE DATABASE ganados;* 
+      - *CREATE DATABASE ganados;* 
 
-      *use ganados;* //ingresa a la base de datos
+      - *use ganados;* //ingresa a la base de datos
 
-      *CREATE TABLE temps(temp1 FLOAT, temp2 FLOAT, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);*
+      - *CREATE TABLE temps(temp1 FLOAT, temp2 FLOAT, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);*
       *SHOW TABLES ;*
 
-      *\q*
+      - *\q*
 
 
 3. Python
