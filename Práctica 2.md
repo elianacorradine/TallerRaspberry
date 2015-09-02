@@ -18,8 +18,7 @@ comunicación con una base de datos.
 
       *use ganados;* //ingresa a la base de datos
 
-      *CREATE TABLE temps;*
-      *(temp1 FLOAT, temp2 FLOAT, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);*
+      *CREATE TABLE temps(temp1 FLOAT, temp2 FLOAT, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);*
       *SHOW TABLES ;*
 
       *\q*
