@@ -56,7 +56,7 @@ while contador < njuegos:
 
         time.sleep(1)
 
-GPIO.output(led,1)
+        GPIO.output(led,1)
 
 
         time.sleep(random.uniform(5,10))
@@ -86,22 +86,22 @@ GPIO.output(led,1)
 
                 if GPIO.input(jug2) == False:
 
-            print "Gana %s. " % njugador2
+                        print "Gana %s. " % njugador2
 
-            contador = contador + 1
+                        contador = contador + 1
 
-            ganados2 = ganados2 + 1
+                        ganados2 = ganados2 + 1
 
-                     db = MySQLdb.connect("localhost","root","raspberry","ganados")
+                        db = MySQLdb.connect("localhost","root","raspberry","ganados")
 
-                     cursor = db.cursor()
+                        cursor = db.cursor()
 
-                     cursor.execute("""INSERT INTO temps (temp1,temp2) VALUES (%s,%s) """,(ganados1,ganados2))
+                        cursor.execute("""INSERT INTO temps (temp1,temp2) VALUES (%s,%s) """,(ganados1,ganados2))
 
-                     db.commit()
+                        db.commit()
 
 
-            break
+                        break
 
 
 GPIO.cleanup()
