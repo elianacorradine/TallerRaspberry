@@ -1,4 +1,4 @@
-# Guia base de datos y "Juego de reacción" 
+# Guia base de datos y "Juego de reacción rapida" 
 
 1. Instalar paquetes de MySQL Estos paquetes son básicos para la creación de un enlace de 
 comunicación con una base de datos.
